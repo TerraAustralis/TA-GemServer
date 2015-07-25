@@ -4,7 +4,7 @@ baselineGemServer: spec
 		for: #gemstone
 		do: [ 
 			spec package: 'TA-GemServer'.
-			spec package: 'TA-Tests-GemServer' with: #('TA-GemServer').
+			spec package: 'TA-Tests-GemServer' with: [ spec requires: #('TA-GemServer') ].
 			spec
 				group: 'GemServer Core' with: #('TA-GemServer');
 				group: 'GemServer Tests' with: #('TA-Tests-GemServer') ].
