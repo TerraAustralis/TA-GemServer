@@ -1,0 +1,14 @@
+{
+	"category" : "TA-GemServer",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TAGemServer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
