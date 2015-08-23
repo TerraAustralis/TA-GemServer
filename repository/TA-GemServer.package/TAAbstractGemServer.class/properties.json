@@ -6,9 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "TAGemServer",
+		"log",
+		"logLevel",
+		"options",
+		"gemServers" ],
+	"name" : "TAAbstractGemServer",
 	"pools" : [
 		 ],
-	"super" : "TAAbstractGemServer",
+	"super" : "GemServer",
 	"type" : "normal" }
